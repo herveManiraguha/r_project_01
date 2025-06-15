@@ -1,0 +1,52 @@
+
+–– Exercise 1 done • Results.xlsx written
+
+Poisson (λ = 3.6)
+  P(X = 7)   = 0.0425
+  P(X ≥ 5) = 0.2936
+null device 
+          1 
+null device 
+          1 
+–– Exercise 2 done • poisson_pmf.png & poisson_cdf.png written
+
+--- Exercise 3: Chi-square Test --------------------------------
+
+Chi-square test (Gender × Smoker):
+        Smoker
+Gender   No Yes
+  Female  3   2
+  Male    2   3
+
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  tbl
+X-squared = 0, df = 1, p-value = 1
+
+–– Exercise 3 done • Chi-square test completed
+
+--- Exercise 4: Multiple Linear Regression ----------------------
+
+Multiple linear regression:  mpg ~ drat + wt
+
+Call:
+lm(formula = mpg ~ drat + wt, data = mtcars)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.4159 -2.0452  0.0136  1.7704  6.7466 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   30.290      7.318   4.139 0.000274 ***
+drat           1.442      1.459   0.989 0.330854    
+wt            -4.783      0.797  -6.001 1.59e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.047 on 29 degrees of freedom
+Multiple R-squared:  0.7609,	Adjusted R-squared:  0.7444 
+F-statistic: 46.14 on 2 and 29 DF,  p-value: 9.761e-10
+
+
+All tasks completed – files ready in the output directory.
